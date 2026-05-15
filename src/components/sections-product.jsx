@@ -2,9 +2,7 @@ import { useState, useEffect } from "react";
 import { Icon } from "./icons";
 import logo from "../assets/Logo.svg";
 
-// ---------- KIUIN BRAND SWOOSH (cyan curve from Figma ID-Visual) ----------
 export default function KiuinSwoosh({ flip, opacity = 1, color = "#5EB1BF" }) {
-  // Two layered cyan curves like the ones decorating the Kiuin app/totem.
   return (
     <svg
       className={"kswoosh" + (flip ? " flip" : "")}
